@@ -89,4 +89,9 @@ public class DouBanBookApiController {
 
         return "freemarker/index";
     }
+    @RequestMapping("/socket")
+    public String socket(){
+
+        return "freemarker/socket";
+    }
 }
